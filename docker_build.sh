@@ -6,5 +6,5 @@
 # read yaml file
 eval $(parse_yaml config.yaml "config_")
 
-cd docker/dev
+cd docker/
 nvidia-docker build -t $config_docker_image_name .
