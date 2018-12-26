@@ -1,0 +1,3 @@
+[submodule "src/nn_models/classification_models"]
+	path = src/nn_models/classification_models
+	url = https://github.com/qubvel/classification_models
